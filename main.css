@@ -1,0 +1,85 @@
+/* Colors:
+#740A2A
+#260000
+#E6E6E6
+#171717
+#0D0D0D */
+
+body {
+    background-color: #E5E5E5;
+    margin: 0 auto;
+    position:relative;
+    font-family: ropa-sans, sans-serif;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+
+header {
+    min-height: 45px;
+    color: white;
+    background-color: #740E2A; 
+    /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#740E2A), to(#540C22));
+    background-image: -webkit-linear-gradient(top, #740E2A, #540C22); 
+    background-image:    -moz-linear-gradient(top, #740E2A, #540C22);
+    background-image:     -ms-linear-gradient(top, #740E2A, #540C22);
+    background-image:      -o-linear-gradient(top, #740E2A, #540C22);*/
+    -moz-box-shadow: 0 0 5px 1px #999;
+    -webkit-box-shadow: 0 0 5px 1px #999;
+    border-bottom: 1px #2D000B solid;
+    width: 100%;
+}
+
+header a {text-decoration:none; color:#E6E6E6; opacity: 1; -webkit-transition:all .3s ease-in; text-shadow: 1px 1px #171717 }
+header a:link {color:#E6E6E6;}      /* unvisited link */
+header a:visited {color:#E6E6E6;} /* visited link */
+header a:hover {color: #E6E6E6; opacity: .6;}    /* mouse over link */
+header a:active {color:#E6E6E6;}  /* selected link */  
+
+.logo, .dressing_room, .explore, .help {
+    float: left;
+    padding: 0 10px;    
+}
+
+.content {
+    /*background-color: #740a2a;*/
+    min-height: 600px;
+    margin-top: 25px;
+}
+
+footer {
+    display: inline;
+    min-height: 100px;
+    margin-bottom: 120px;  
+    color: #260000;
+}
+
+footer ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration:none;
+    color:#740a2a;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+footer ul li a:hover {
+    opacity: .5;
+}
+
+.footer_nav_2ndnav, .footer_nav_socialmedia, .footer_nav_other {
+    width: 15%;
+    float: left;
+    
+}
